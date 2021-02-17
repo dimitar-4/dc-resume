@@ -3,8 +3,13 @@
 body {
     font-family: "Mitr", sans-serif;
     min-height: 100vh;
+    background-image: url(../images/hero-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
+/* Navigation menu and intro sliders */
 .landing {
     padding: 0;
 }
@@ -12,53 +17,62 @@ body {
 .nav-style {
     display: flex;
     justify-content: space-between;
-    background: #205b61;
+    /* background: #205b61; */
     padding: 0 2rem;
     min-height: 7vh;
 }
 
 .nav-links {
-  display: flex;
   list-style: none;
 }
 
 .nav-links li {
-  padding-left: 5rem;
+  padding-left: 4rem;
   font-size: 1.2rem;
-  color: rgb(29, 46, 24);
 }
 
 .nav-links li a {
-    color: rgb(225, 230, 224);
+    color: #fafafa;
     text-decoration: none;
 }
 
 .navbar-toggler span i {
-    color: rgb(225, 230, 224);
+    color: #fafafa;
 }
 
-/* .nav-links li a:hover {
+.nav-links li a:hover {
     letter-spacing: 2px;
-    font-size: 1.3rem;
-} */
+    transition: 0.5s;
+}
 
 #logo {
-    color: rgb(225, 230, 224);
+    color: #fafafa;
     text-decoration: none;
     font-family: "Taviraj", sans-serif;
     letter-spacing: 1px;
     margin: 0;
 }
 
+.home-name {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    font-family: "Taviraj", sans-serif;
+    font-size: 2rem;
+    color: #fafafa;
+    letter-spacing: 4px;
+}
+
 .home-text {
     position: absolute;
-    top: 35%;
+    top: 55%;
     left: 50%;
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -55%);
     font-family: "Taviraj", sans-serif;
-    font-size: 3rem;
-    color: rgb(29, 46, 24);
-    letter-spacing: 2px;
+    font-size: 1.5rem;
+    color: #fafafa;
+    letter-spacing: 4px;
 }
 
 .intro {
@@ -74,14 +88,14 @@ body {
 }
 
 .intro-text {
-  color: rgb(210, 212, 210);
+  color: #fafafa;
   font-family: "Taviraj", sans-serif;
   font-size: 2rem;
   letter-spacing: 2px;
 }
 
 .slider {
-  background: #205b61;
+  background: rgb(144, 179, 168);
   position: fixed;
   top: 0;
   left: 0;
@@ -108,3 +122,5 @@ body {
   transform: translateY(100%);
   display: inline-block;
 }
+
+/* Home page content */
