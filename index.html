@@ -15,62 +15,70 @@
 </head>
 <body>
     <!-- Navigation menu -->
-    <header class="landing">
-        <nav class="navbar navbar-expand-lg navbar-fixed-top nav-style">
-            <a class="navbar-brand" href="#">
-                <h4 id="logo">Dimitar Cholakov</h4>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span><i class="fas fa-bars"></i></span>
-            </button>
+    <main id="home">
+        <header class="landing">
+            <nav class="navbar navbar-expand-lg navbar-fixed-top nav-style">
+                <a class="navbar-brand" href="#home">
+                    <h4 id="logo">Dimitar Cholakov</h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span><i class="fas fa-bars"></i></span>
+                </button>
     
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ml-auto mt-lg-0 nav-links">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ml-auto mt-lg-0 nav-links">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    
+        <section class="container-fluid">
+            <h2 class="home-name">Dimitar Cholakov</h2>
+            <h2 class="home-text">Web Development & Web Design</h2>
+            <ul class="home-list">
+                <li><a href=""><i class="fab fa-linkedin"></i></a></li>
+                <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href=""><i class="fab fa-github-square"></i></a></li>
+                <li><a href=""><i class="fab fa-instagram-square"></i></a></li>
+                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+            </ul>
+        </section>
+    
+        <!-- Intro Sliders -->
+        <section>
+            <div class="intro">
+                <div class="intro-text">
+                    <h1 class="hide">
+                        <span class="welcome-text">Hello! Thank you for</span>
+                    </h1>
+                    <h1 class="hide">
+                        <span class="welcome-text">your interest in</span>
+                    </h1>
+                    <h1 class="hide">
+                        <span class="welcome-text">my Resume.</span>
+                    </h1>
+                </div>
             </div>
-        </nav>
-    </header>
-    <h2 class="home-name">Dimitar Cholakov</h2>
-    <h2 class="home-text">Web Development & Web Design</h2>
-
-    <!-- Intro Sliders -->
-    <section>
-        <div class="intro">
-            <div class="intro-text">
-                <h1 class="hide">
-                    <span class="welcome-text">Hello! Thank you for</span>
-                </h1>
-                <h1 class="hide">
-                    <span class="welcome-text">your interest in</span>
-                </h1>
-                <h1 class="hide">
-                    <span class="welcome-text">my Resume.</span>
-                </h1>
-            </div>
-        </div>
-        
-        <div class="slider"></div>
-    </section>
-
-    <section class="container-fluid home-content">
-        <div></div>
-    </section>
+    
+            <div class="slider"></div>
+        </section>
+    </main>
     
     <script 
         src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js" 
