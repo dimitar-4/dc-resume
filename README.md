@@ -42,6 +42,8 @@ highlights my skills, experience and achievments.**
    * Used to host the repository for the project.
 * GitHub Pages
    * Used to deploy and host the website.
+* TinyPNG
+   * Used to compress images used in the project.
 
 ---
 ## Testing
@@ -51,3 +53,5 @@ highlights my skills, experience and achievments.**
 
 ---
 ## Credits
+
+### Media
