@@ -133,6 +133,16 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
 }
 
+/* Page headers */
+
+section h1 {
+    color: #fafafa;
+    text-align: center;
+    margin-top: 3rem;
+    font-family: "Merriweather", sans-serif;
+    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+}
+
 /* Home page content */
 
 .home-name {
@@ -201,13 +211,23 @@ body::-webkit-scrollbar-thumb {
     background-image: linear-gradient(rgb(82, 78, 70), rgb(34, 33, 37), rgb(10, 10, 34));
 }
 
-.portfolio-content h1 {
+.portfolio-text {
+    text-align: center;
+    color: #fafafa;
+    margin: 3rem auto;
+    width: 60%;
+    font-family: "Merriweather", sans-serif;
+    background: transparent;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+}
+
+/* .portfolio-content h1 {
     color: #fafafa;
     text-align: center;
     margin-top: 3rem;
     font-family: "Merriweather", sans-serif;
     text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
-}
+} */
 
 /* Contact page */
 
@@ -216,13 +236,13 @@ body::-webkit-scrollbar-thumb {
     background-image: linear-gradient(to bottom right, rgb(96, 139, 146), rgb(95, 91, 79), rgb(17, 19, 17));
 }
 
-.contact-content h1 {
+/* .contact-content h1 {
     color: #fafafa;
     text-align: center;
     margin-top: 3rem;
     font-family: "Merriweather", sans-serif;
     text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
-}
+} */
 
 .contact-card {
     max-width: 90%;
@@ -306,6 +326,10 @@ body::-webkit-scrollbar-thumb {
         font-size: 1.5rem;
         color: #fafafa;
         letter-spacing: 3px;
+    }
+
+    .portfolio-text {
+        width: 90%;
     }
 }
 
