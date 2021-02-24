@@ -1,3 +1,4 @@
+// The Intro sliders use GSAP Library
 const tl = gsap.timeline({ defaults: { ease: "power1.out" } });
 
 // Intro Sliders and Home Page Content
