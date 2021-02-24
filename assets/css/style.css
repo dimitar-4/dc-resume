@@ -14,7 +14,6 @@ body {
     min-height: 100vh;
     scrollbar-width: thin;
     scrollbar-color: var(--thumbBG) var(--scrollbarBG);
-    animation: pageLoader 0.75s;
 }
 
 body::-webkit-scrollbar-track {
@@ -33,7 +32,7 @@ body::-webkit-scrollbar-thumb {
     from {
         opacity: 0;
         transform: translateY(-10px);
-        background: rgb(29, 111, 126);
+        background: rgb(14, 30, 32);
     }
 
     to {
@@ -149,12 +148,18 @@ body::-webkit-scrollbar-thumb {
   display: inline-block;
 }
 
+/* Page content */
+
+#page-loader {
+    animation: pageLoader 0.75s;
+}
+
 /* Page headers */
 
 section h1 {
     color: #fafafa;
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 2rem;
     font-family: "Merriweather", sans-serif;
     text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
 }
@@ -227,21 +232,33 @@ section h1 {
     background-image: linear-gradient(rgb(82, 78, 70), rgb(34, 33, 37), rgb(10, 10, 34));
 }
 
-.portfolio-text {
-    text-align: center;
+.page-info {
+    margin: 2rem auto;
+    max-width: 88%;
     color: #fafafa;
-    margin: 3rem auto;
-    width: 60%;
-    font-family: "Merriweather", sans-serif;
-    background: transparent;
-    border: none;
-    /* box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa; */
+    text-align: center;
+}
+
+.project-card-resume {
+    color: rgb(19, 20, 20);
+    margin: 2rem auto;
+    width: 88%;
+    background: #e7ecec;
+    border: 2px solid rgb(40, 156, 177);
+    transition: 0.5s;
+}
+
+.project-card-resume:hover {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    transition: 0.5s;
 }
 
 .card-deck {
     max-width: 90%;
     margin: auto;
     text-align: center;
+    padding-bottom: 5rem
 }
 
 .project-card {
@@ -256,6 +273,15 @@ section h1 {
     margin-top: 0 !important;
     margin-bottom: 1rem;
     transition: 0.5s;
+}
+
+.summary {
+    text-align: left;
+}
+
+.project-card-resume .card-footer {
+    display: flex;
+    justify-content: space-around;
 }
 
 .card-footer a {
