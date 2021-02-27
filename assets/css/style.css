@@ -96,6 +96,24 @@ body::-webkit-scrollbar-thumb {
     text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
 }
 
+/* Page content */
+
+#page-loader {
+    animation: pageLoader 0.75s;
+}
+
+/* Page headers */
+
+section h1 {
+    color: #fafafa;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: "Merriweather", sans-serif;
+    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+}
+
+/* Home Page */
+
 /* Intro sliders */
 
 .intro {
@@ -147,24 +165,6 @@ body::-webkit-scrollbar-thumb {
   transform: translateY(100%);
   display: inline-block;
 }
-
-/* Page content */
-
-#page-loader {
-    animation: pageLoader 0.75s;
-}
-
-/* Page headers */
-
-section h1 {
-    color: #fafafa;
-    text-align: center;
-    margin-top: 2rem;
-    font-family: "Merriweather", sans-serif;
-    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
-}
-
-/* Home page content */
 
 .home-name {
     position: absolute;
@@ -219,17 +219,24 @@ section h1 {
     transition: 0.5s;
 }
 
-/* About page */
+/* About Page */
 
 .about-section {
     min-height: 100vh;
+}
+
+/* Skills Page */
+
+.skills-page {
+    min-height: 100vh;
+    background-image: linear-gradient(rgb(78, 127, 136), rgb(33, 121, 161), rgb(10, 84, 102));
 }
 
 /* Portfolio Page */
 
 .portfolio-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(82, 78, 70), rgb(34, 33, 37), rgb(10, 10, 34));
+    background-image: linear-gradient(rgb(10, 10, 34), rgb(34, 33, 37), rgb(82, 78, 70));
 }
 
 .page-info {
@@ -301,11 +308,11 @@ section h1 {
     box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
 }
 
-/* Contact page */
+/* Contact Page */
 
 .contact-page {
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, rgb(96, 139, 146), rgb(95, 91, 79), rgb(17, 19, 17));
+    background-image: linear-gradient(rgb(84, 135, 143), rgb(79, 116, 146), rgb(26, 30, 34));
 }
 
 .contact-card {
@@ -314,7 +321,7 @@ section h1 {
     margin: 3rem auto;
     font-family: "Merriweather", sans-serif;
     background: transparent;
-    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
 }
 
 .contact-img {
