@@ -232,19 +232,14 @@ section h1 {
     background-image: linear-gradient(rgb(78, 127, 136), rgb(33, 121, 161), rgb(10, 84, 102));
 }
 
-.skill-title {
-    text-align: center;
-    margin: 1rem auto;
-    text-transform: uppercase;
-    color: #fafafa;
-}
-
 .container {
     position: relative;
     width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .container .row {
@@ -381,6 +376,38 @@ svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 25) / 100);
 }
 
+.skill-deck2 {
+    margin: auto;
+    padding-bottom: 5rem;
+}
+
+.skills-card-deck {
+    max-width: 90%;
+    margin: auto;
+}
+
+.skill-card2 {
+    width: 30rem;
+    max-width: 100%;
+    transition: 0.5s;
+    border: none;
+}
+
+.skill-card2:hover {
+    transform: translateY(-1rem);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+}
+
+.lang-name {
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+.lang-name:hover {
+    letter-spacing: 1px;
+}
+
 /* ------------------------------ Portfolio Page ----------------------------- */
 
 .portfolio-page {
@@ -410,7 +437,7 @@ svg circle:nth-child(2) {
     transition: 0.5s;
 }
 
-.card-deck {
+.card-deck-portfolio {
     max-width: 90%;
     margin: auto;
     text-align: center;
