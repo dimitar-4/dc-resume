@@ -166,11 +166,13 @@ section h1 {
   display: inline-block;
 }
 
+/* Home page content */
+
 .home-name {
     position: absolute;
-    top: 35%;
+    top: 25%;
     left: 50%;
-    transform: translate(-50%, -35%);
+    transform: translate(-50%, -25%);
     font-family: "Merriweather", sans-serif;
     font-size: 2rem;
     color: #fafafa;
@@ -180,15 +182,31 @@ section h1 {
 
 .home-text {
     position: absolute;
-    top: 45%;
+    top: 35%;
     left: 50%;
-    transform: translate(-50%, -45%);
+    transform: translate(-50%, -35%);
     font-family: "Merriweather", sans-serif;
     font-size: 1.5rem;
     text-align: center;
     color: #fafafa;
     letter-spacing: 4px;
     text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+}
+
+.dc-hero {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -60%);
+    font-size: 1.5rem;
+    text-align: center;
+    color: #fafafa;
+}
+
+.dc-hero-img {
+    width: 250px;
+    border-radius: 50%;
+    border: 3px solid #fafafa;
 }
 
 .home-list {
@@ -614,13 +632,17 @@ svg circle:nth-child(2) {
 @media (max-width: 992px) {
     .home-text {
         position: absolute;
-        top: 45%;
+        top: 35%;
         left: 50%;
-        transform: translate(-50%, -45%);
+        transform: translate(-50%, -35%);
         font-family: "Merriweather", sans-serif;
         font-size: 1.5rem;
         color: #fafafa;
         letter-spacing: 3px;
+    }
+
+    .dc-hero-img {
+        width: 200px;
     }
 
     .my-photo-style {
@@ -652,6 +674,10 @@ svg circle:nth-child(2) {
         letter-spacing: 3px;
     }
 
+    .dc-hero-img {
+        width: 150px;
+    }
+
     .home-list li {
         padding: 0 1rem;
     }
@@ -667,6 +693,13 @@ svg circle:nth-child(2) {
 }
 
 @media (max-width: 365px) {
+    .home-text {
+        position: absolute;
+        top: 15%;
+        left: 50%;
+        transform: translate(-50%, -15%);
+    }
+
     #logo {
         font-size: 1.1rem;
     }
