@@ -260,6 +260,13 @@ section h1 {
     border: none;
     background: transparent;
     color: #fafafa;
+    font-family: "Merriweather", sans-serif;
+}
+
+.cv-link {
+    color: #1a1b1b;
+    margin-left: 5px;
+    font-size: 1.5rem;
 }
 
 
@@ -428,13 +435,7 @@ svg circle:nth-child(2) {
 .skill-card2 {
     width: 30rem;
     max-width: 100%;
-    transition: 0.5s;
     border: none;
-}
-
-.skill-card2:hover {
-    transform: translateY(-1rem);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
 }
 
 .lang-name {
@@ -539,12 +540,6 @@ svg circle:nth-child(2) {
     margin: 3rem auto;
     font-family: "Merriweather", sans-serif;
     background: transparent;
-    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
-    transition: 0.5s;
-}
-
-.contact-card:hover {
-    transform: translateY(-1rem);
     box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
 }
 
