@@ -227,6 +227,42 @@ section h1 {
     /* background-image: linear-gradient(rgb(10, 84, 102), rgb(79, 129, 133), rgb(83, 145, 129)); */
 }
 
+.info-container {
+    padding: 0;
+}
+
+.main-info {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.my-photo {
+    margin: 1rem;
+    max-width: 90%;
+}
+
+.my-photo-style {
+    width: 400px;
+    border-radius: 45%;
+    border: none;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
+}
+
+.my-description {
+    margin: 1rem;
+    max-width: 90%;
+    width: 500px;
+}
+
+.description-text {
+    border: none;
+    background: transparent;
+    color: #fafafa;
+}
+
+
 /* ------------------------------- Skills Page -------------------------------- */
 
 .skills-page {
@@ -415,7 +451,7 @@ svg circle:nth-child(2) {
 
 .portfolio-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(88, 92, 64), rgb(62, 63, 22));
+    background-image: linear-gradient(rgb(88, 92, 64), rgb(65, 64, 45));
     /* background-image: linear-gradient(rgb(82, 78, 70), rgb(41, 39, 30), rgb(10, 10, 34)); */
 }
 
@@ -453,7 +489,7 @@ svg circle:nth-child(2) {
     transition: 0.5s;
     background: #e7ecec;
     color: rgb(19, 20, 20);
-    border: 2px solid rgb(40, 156, 177);
+    border: none;
 }
 
 .project-card:hover {
@@ -493,7 +529,7 @@ svg circle:nth-child(2) {
 
 .contact-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(65, 64, 45), rgb(30, 32, 16));
+    background-image: linear-gradient(rgb(48, 47, 34), rgb(23, 26, 10));
     /* background-image: linear-gradient(rgb(10, 84, 102), rgb(73, 128, 125), rgb(70, 61, 40), rgb(35, 39, 44)); */
 }
 
@@ -584,6 +620,14 @@ svg circle:nth-child(2) {
         font-size: 1.5rem;
         color: #fafafa;
         letter-spacing: 3px;
+    }
+
+    .my-photo-style {
+        width: 300px;
+    }
+
+    .my-description {
+        width: 400px;
     }
 
     .portfolio-text {
