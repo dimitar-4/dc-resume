@@ -221,15 +221,18 @@ section h1 {
 
 /* ------------------------------ About Page --------------------------------*/
 
-.about-section {
+.about-page {
     min-height: 100vh;
+    background-image: linear-gradient(rgb(10, 84, 102), rgb(79, 122, 133));
+    /* background-image: linear-gradient(rgb(10, 84, 102), rgb(79, 129, 133), rgb(83, 145, 129)); */
 }
 
 /* ------------------------------- Skills Page -------------------------------- */
 
 .skills-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(78, 127, 136), rgb(33, 121, 161), rgb(10, 84, 102));
+    background-image: linear-gradient(rgb(32, 107, 88), rgb(83, 145, 129));
+    /* background-image: linear-gradient(rgb(83, 145, 129), rgb(180, 163, 116), rgb(82, 78, 70)); */
 }
 
 .container {
@@ -412,7 +415,8 @@ svg circle:nth-child(2) {
 
 .portfolio-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(10, 10, 34), rgb(34, 33, 37), rgb(82, 78, 70));
+    background-image: linear-gradient(rgb(88, 92, 64), rgb(62, 63, 22));
+    /* background-image: linear-gradient(rgb(82, 78, 70), rgb(41, 39, 30), rgb(10, 10, 34)); */
 }
 
 .page-info {
@@ -489,7 +493,8 @@ svg circle:nth-child(2) {
 
 .contact-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(84, 135, 143), rgb(79, 116, 146), rgb(26, 30, 34));
+    background-image: linear-gradient(rgb(65, 64, 45), rgb(30, 32, 16));
+    /* background-image: linear-gradient(rgb(10, 84, 102), rgb(73, 128, 125), rgb(70, 61, 40), rgb(35, 39, 44)); */
 }
 
 .contact-card {
@@ -498,6 +503,12 @@ svg circle:nth-child(2) {
     margin: 3rem auto;
     font-family: "Merriweather", sans-serif;
     background: transparent;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
+    transition: 0.5s;
+}
+
+.contact-card:hover {
+    transform: translateY(-1rem);
     box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
 }
 
