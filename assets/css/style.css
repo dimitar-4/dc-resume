@@ -267,6 +267,12 @@ section h1 {
     color: #1a1b1b;
     margin-left: 5px;
     font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.cv-link:hover {
+    color: #fafafa;
+    text-shadow: 0 15px 35px rgba(0, 0, 0, .5);
 }
 
 
