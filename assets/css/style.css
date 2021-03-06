@@ -198,9 +198,40 @@ section h1 {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -60%);
+    width: 100%;
     font-size: 1.5rem;
     text-align: center;
     color: #fafafa;
+    text-transform: uppercase;
+}
+
+.dc-hero a:hover {
+    text-decoration: none;
+    color: #fafafa;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+    background: transparent;
+}
+
+.home-cv-link {
+    color: #fafafa;
+    border-top: 3px solid #fafafa;
+    border-left: 3px solid #fafafa;
+    padding-left: 0.5rem;
+    border-radius: 10%;
+    transition: 0.5s;
+    margin-right: 0.5rem;
+    background: rgba(39, 56, 56, 0.1);
+}
+
+.home-projects-link {
+    color: #fafafa;
+    border-bottom: 3px solid #fafafa;
+    border-right: 3px solid #fafafa;
+    padding-right: 0.5rem;
+    border-radius: 10%;
+    transition: 0.5s;
+    background: rgba(39, 56, 56, 0.1);
 }
 
 .dc-hero-img {
@@ -665,17 +696,18 @@ svg circle:nth-child(2) {
 @media (max-width: 520px) {
     .home-text {
         position: absolute;
-        top: 35%;
+        top: 25%;
         left: 50%;
-        transform: translate(-50%, -35%);
-        font-family: "Merriweather", sans-serif;
+        transform: translate(-50%, -25%);
         font-size: 1.5rem;
-        color: #fafafa;
-        letter-spacing: 3px;
     }
 
     .dc-hero-img {
         width: 150px;
+    }
+
+    .dc-hero a {
+        font-size: 1rem;
     }
 
     .home-list li {
@@ -695,9 +727,13 @@ svg circle:nth-child(2) {
 @media (max-width: 365px) {
     .home-text {
         position: absolute;
-        top: 15%;
+        top: 20%;
         left: 50%;
-        transform: translate(-50%, -15%);
+        transform: translate(-50%, -20%);
+    }
+
+    .dc-hero a {
+        font-size: 0.7rem;
     }
 
     #logo {
