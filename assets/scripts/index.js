@@ -9,4 +9,5 @@ tl.to(".intro", { y: "-100%", duration: 1 }, "-=1");
 tl.fromTo(".nav-home", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".home-name", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
 tl.fromTo(".home-text", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
-tl.fromTo(" .home-list", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=1");
+tl.fromTo(".dc-hero", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=0.75");
+tl.fromTo(" .home-list", { opacity: 0 }, { opacity: 1, duration: 1 }, "-=0.5");
