@@ -47,7 +47,7 @@ hr {
     }
 }
 
-/* -------------------------------- Navigation menu ----------------------------- */
+/* ----------------------------------------------------- Navigation menu --------------------------------------------- */
 
 .landing {
     padding: 0;
@@ -118,7 +118,7 @@ section h1 {
     text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
 }
 
-/* ------------------------------- Home Page ----------------------------- */
+/* --------------------------------------------------- Home Page ------------------------------------------------- */
 
 /* Intro sliders */
 
@@ -274,7 +274,7 @@ section h1 {
     transition: 0.5s;
 }
 
-/* ------------------------------ About Page --------------------------------*/
+/* ------------------------------------------------- About Page ---------------------------------------------------*/
 
 .about-page {
     min-height: 100vh;
@@ -331,11 +331,11 @@ section h1 {
 }
 
 
-/* ------------------------------- Skills Page -------------------------------- */
+/* ------------------------------------------------------- Skills Page ----------------------------------------------------- */
 
 .skills-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(32, 107, 88), rgb(83, 145, 129));
+    background-image: linear-gradient(rgb(28, 97, 91), rgb(85, 116, 108));
     /* background-image: linear-gradient(rgb(83, 145, 129), rgb(180, 163, 116), rgb(82, 78, 70)); */
 }
 
@@ -509,11 +509,11 @@ svg circle:nth-child(2) {
     letter-spacing: 1px;
 }
 
-/* ------------------------------ Portfolio Page ----------------------------- */
+/* ------------------------------------------------------ Portfolio Page -------------------------------------------------------- */
 
 .portfolio-page {
     min-height: 100vh;
-    background-image: linear-gradient(rgb(88, 92, 64), rgb(65, 64, 45));
+    background-image: linear-gradient(rgb(76, 77, 70), rgb(53, 53, 48));
     /* background-image: linear-gradient(rgb(82, 78, 70), rgb(41, 39, 30), rgb(10, 10, 34)); */
 }
 
@@ -587,39 +587,28 @@ svg circle:nth-child(2) {
     box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
 }
 
-/* ------------------------------------ Contact Page ---------------------------------- */
+/* ------------------------------------------------------- Contact Page ----------------------------------------------------- */
 
 .contact-page {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     background-image: linear-gradient(rgb(48, 47, 34), rgb(23, 26, 10));
     /* background-image: linear-gradient(rgb(10, 84, 102), rgb(73, 128, 125), rgb(70, 61, 40), rgb(35, 39, 44)); */
 }
 
-.contact-card {
-    max-width: 90%;
-    width: 25rem;
-    margin: 3rem auto;
+.contact-txt {
+    text-align: center;
+    color: #fafafa;
     font-family: "Merriweather", sans-serif;
-    background: transparent;
-    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
+    margin-top: 2rem;
 }
 
 .contact-img {
-    height: auto;
-    max-width: 100%;
-    padding: 3rem;
-}
-
-.card-body-contact {
-    text-align: center;
-    color: #fafafa;
-    padding-top: 0;
-}
-
-.contact-info {
-    text-align: center;
-    color: #fafafa;
-    border-color: #fafafa !important;
+    width: 250px;
+    max-width: 90%;
+    display: flex;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
 }
 
 .list-group-item {
@@ -632,7 +621,6 @@ svg circle:nth-child(2) {
 
 .list-group-item:hover {
     letter-spacing: 1px;
-    transition: 0.5s;
 }
 
 .card-links {
@@ -649,7 +637,7 @@ svg circle:nth-child(2) {
 }
 
 .social-media-links li {
-    padding: 0 1.5rem;
+    padding: 0 1rem;
 }
 
 .social-media-links li a {
@@ -664,7 +652,62 @@ svg circle:nth-child(2) {
     transition: 0.5s;
 }
 
-/* ---------------------------------- Media queries -------------------------------- */
+.message {
+    margin: 3rem auto;
+    justify-content: center;
+    text-transform: uppercase;
+    transition: all 3s ease-in-out;
+}
+
+.message-box {
+    font-family: "Merriweather", sans-serif;
+    color: #fafafa;
+    text-align: center;
+    width: 550px;
+    max-width: 90%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
+}
+
+form .submit-btn {
+    background: rgb(28, 97, 91);
+    border: transparent;
+    height: 3rem;
+    transition: 0.5s;
+}
+
+form .submit-btn:hover {
+    border: 1px solid #fafafa;
+    background: transparent;
+    letter-spacing: 2px;
+}
+
+input {
+    height: 3rem;
+}
+
+.form-style {
+    width: 400px;
+    max-width: 90%;
+    background: transparent;
+    color: #fafafa;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fafafa;
+    margin-bottom: 0.5rem;
+}
+
+/* --------------------------------------------------- Footer ------------------------------------------------------ */
+
+.footer-style {
+    height: 100px;
+    align-items: center;
+    color: #fafafa;
+    border-top: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;;
+}
+
+/* --------------------------------------------------- Media queries ------------------------------------------------- */
 
 @media (max-width: 992px) {
     .home-text {
