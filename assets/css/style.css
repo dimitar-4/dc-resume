@@ -292,13 +292,12 @@ section h1 {
 }
 
 .my-photo {
-    margin: 1rem;
+    margin-top: 3rem;
     max-width: 90%;
 }
 
 .my-photo-style {
     width: 400px;
-    border-radius: 5%;
     border: none;
     box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
 }
