@@ -1,3 +1,7 @@
+<!-- This code is just a php exemle of how to make functional 
+ contact form. It is not connected to this project. GitHub Pages 
+ does not support languages like php, python, ruby... -->
+
 <?php
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
