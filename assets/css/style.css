@@ -277,9 +277,7 @@ section h1 {
 /* ------------------------------------------------- About Page ---------------------------------------------------*/
 
 .about-page {
-    min-height: 100vh;
     background-image: linear-gradient(rgb(10, 84, 102), rgb(79, 122, 133));
-    /* background-image: linear-gradient(rgb(10, 84, 102), rgb(79, 129, 133), rgb(83, 145, 129)); */
 }
 
 .info-container {
@@ -590,9 +588,7 @@ svg circle:nth-child(2) {
 /* ------------------------------------------------------- Contact Page ----------------------------------------------------- */
 
 .contact-page {
-    /* min-height: 100vh; */
     background-image: linear-gradient(rgb(48, 47, 34), rgb(23, 26, 10));
-    /* background-image: linear-gradient(rgb(10, 84, 102), rgb(73, 128, 125), rgb(70, 61, 40), rgb(35, 39, 44)); */
 }
 
 .contact-txt {
@@ -600,6 +596,10 @@ svg circle:nth-child(2) {
     color: #fafafa;
     font-family: "Merriweather", sans-serif;
     margin-top: 2rem;
+}
+
+.photo {
+    margin-bottom: 2rem;
 }
 
 .contact-img {
@@ -627,29 +627,6 @@ svg circle:nth-child(2) {
     justify-content: center;
     align-items: center;
     display: flex;
-}
-
-.social-media-links {
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-}
-
-.social-media-links li {
-    padding: 0 1rem;
-}
-
-.social-media-links li a {
-    font-size: 2.5rem;
-    color: #fafafa;
-    transition: 0.5s;
-}
-
-.social-media-links li a:hover {
-    padding: 0 10px;
-    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
-    transition: 0.5s;
 }
 
 .message {
@@ -701,10 +678,47 @@ input {
 /* --------------------------------------------------- Footer ------------------------------------------------------ */
 
 .footer-style {
-    height: 100px;
     align-items: center;
     color: #fafafa;
-    border-top: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.footer-cv-link {
+    color: #fafafa;
+    transition: 0.5s;
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.footer-cv-link:hover {
+    color: #fafafa;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+
+}
+
+.social-media-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.social-media-links li {
+    padding: 0 1rem;
+}
+
+.social-media-links li a {
+    font-size: 2.5rem;
+    color: #fafafa;
+    transition: 0.5s;
+}
+
+.social-media-links li a:hover {
+    padding: 0 10px;
+    text-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(40, 156, 177), 0 0 5px #fafafa;
+    transition: 0.5s;
 }
 
 /* --------------------------------------------------- Media queries ------------------------------------------------- */
