@@ -284,6 +284,11 @@ section h1 {
     padding: 0;
 }
 
+.info-container h3 {
+    text-align: center;
+    color: #fafafa;
+}
+
 .main-info {
     margin: auto;
     display: flex;
@@ -297,7 +302,7 @@ section h1 {
 }
 
 .my-photo-style {
-    width: 400px;
+    width: 350px;
     border: none;
     box-shadow: 1px 1px 2px rgb(17, 19, 17), 0 0 25px rgb(212, 228, 231), 0 0 5px #fafafa;
 }
@@ -324,6 +329,39 @@ section h1 {
     letter-spacing: 1px;
     color: #fafafa;
     text-decoration: none;
+}
+
+.hobby-info {
+    margin: 0;
+    justify-content: space-around;
+    padding-top: 1rem;
+    color: #fafafa;
+}
+
+.hobby-icons {
+    list-style: none;
+    display: contents;
+}
+
+.hobby-icons li button {
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-size: 2.5rem;
+    transition: 0.5s;
+}
+
+.hobby-icons li button:hover {
+    font-size: 3rem;
+    background: transparent;
+    cursor: initial !important;
+}
+
+.hobby-txt {
+    margin: 1rem auto;
+    width: 80%;
+    text-align: center;
+    color: #fafafa;
 }
 
 /* ------------------------------------------------------- Skills Page ----------------------------------------------------- */
@@ -535,7 +573,6 @@ svg circle:nth-child(2) {
 }
 
 .card-deck-portfolio {
-    max-width: 90%;
     margin: auto;
     text-align: center;
     padding-bottom: 5rem
@@ -544,6 +581,8 @@ svg circle:nth-child(2) {
 .project-card {
     margin-top: 1rem !important;
     transition: 0.5s;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
     background: #e7ecec;
     color: rgb(19, 20, 20);
     border: none;
