@@ -221,10 +221,10 @@ section h1 {
 
 .home-cv-link {
     color: #fafafa;
-    border-top: 3px solid #fafafa;
-    border-left: 3px solid #fafafa;
+    border-top: 1px solid #fafafa;
+    border-left: 1px solid #fafafa;
     padding-left: 0.5rem;
-    border-radius: 10%;
+    border-radius: 5%;
     transition: 0.5s;
     margin-right: 0.5rem;
     background: rgba(39, 56, 56, 0.1);
@@ -232,10 +232,10 @@ section h1 {
 
 .home-projects-link {
     color: #fafafa;
-    border-bottom: 3px solid #fafafa;
-    border-right: 3px solid #fafafa;
+    border-bottom: 1px solid #fafafa;
+    border-right: 1px solid #fafafa;
     padding-right: 0.5rem;
-    border-radius: 10%;
+    border-radius: 5%;
     transition: 0.5s;
     background: rgba(39, 56, 56, 0.1);
 }
